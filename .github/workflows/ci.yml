@@ -16,6 +16,7 @@ on:
     branches:
       - main
       - "feature/**"     # ← cualquier rama que empiece con feature/
+  workflow_dispatch: {}
   pull_request:
     branches:
       - main
