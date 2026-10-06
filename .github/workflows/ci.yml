@@ -54,7 +54,7 @@ jobs:
           flake8 src/ tests/ \
             --max-line-length=100 \
             --exclude=__pycache__
-          echo "✅ Sin errores de estilo"
+          echo "✅ Sin errores de estilos"
 
   # ──────────────────────────────────────────────────────────────
   # JOB 2: test
